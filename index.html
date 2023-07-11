@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastro de cliente</title>
+</head>
+
+<body>
+    <form id="myForm">
+
+        <h2>Sistema de Gestão de Cliente</h2>
+
+        <label for="nome">Nome Completo:</label>
+        <input type="text" name="nome" id="nome">
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="endereco" id="endereco">
+
+
+        <div class="lados">
+
+            <div class="lado-esq">
+                <label for="contato">Contato</label>
+                <input type="text" name="contato" id="contato">
+            </div>
+
+            <div class="lado-dir">
+                <label for="idade">Idade:</label>
+                <input type="text" name="idade" id="idade">
+            </div>
+
+        </div>
+
+        <div class="lados">
+
+            <div class="lado-esq">
+                <label for="genero">Genero</label>
+                <select name="genero" id="genero">
+                    <option value="mausculino"> Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+
+            <div class="lado-dir">
+
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="cpf">
+            </div>
+        </div>
+
+        <div class="btns">
+            <div class="btn">
+                <button type="submit" id="btn1">Salvar Dados</button>
+            </div>
+
+            <div class="btn">
+                <button type="reset" id="btn2">Limpar Campos</button>
+            </div>
+
+        </div>
+
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>

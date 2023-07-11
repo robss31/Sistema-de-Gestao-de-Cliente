@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(178, 174, 174);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -0px;
+    color: rgb(249, 244, 244);
+}
+
+#myForm {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(rgba(31, 31, 29, 0.5), rgba(30, 31, 24, 0.7), rgba(30, 31, 31, 0.8));
+    justify-content: center;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+label {
+    margin-bottom: 3px;
+    font-family: 'monospace';
+    color:rgb(249, 244, 244);
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+input {
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.lados {
+    display: flex;
+    justify-content: space-around;
+}
+
+#lado-esq {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contato {
+    width: 150px;
+    
+}
+
+.lado-dir {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+#idade,
+#cpf {
+    width: 150px;
+    margin-left: 30pxpx;
+    display: grid;
+    grid-column: span;
+}
+
+#genero {
+    height: 30px;
+    border-radius: 10px;
+}
+
+select {
+    width: 150px;
+}
+
+.btns{
+    margin-left: 60px;
+
+
+}
+/*Principal*/
+.btn {
+    background: linear-gradient(rgb(20, 19, 19), black) padding-box, linear-gradient(to right, #a9bbb1, #e5f1ef, #d4d8d8) border-box;
+
+    border-radius: 80%;
+    border: 3px solid transparent;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    width: 90px;
+    height: 60px;
+    transition: 0.6s;
+    margin-left: 10px;
+    margin-top: 30px;
+   
+}
+
+/*Salvar*/
+#btn1 {
+    background: linear-gradient(rgb(162, 147, 16), black) padding-box, linear-gradient(to right, #a9bbb1, #e5f1ef, #d4d8d8) border-box;
+    border-radius: 80%;
+    border: 3px solid transparent;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(249, 244, 244);
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    transition: 0.6s;
+    margin-left: 0px;
+    margin-top: -1px;
+}
+
+#btn1:hover {
+    background: linear-gradient(rgb(42, 238, 140), black) padding-box, linear-gradient(to right, #131815, #0ba18c, #368986) border-box;
+}
+
+
+/*Limpar*/
+#btn2 {
+    background: linear-gradient(rgb(162, 147, 16), black) padding-box, linear-gradient(to right, #a9bbb1, #e5f1ef, #d4d8d8) border-box;
+    border-radius: 80%;
+    border: 3px solid transparent;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(249, 244, 244);
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    transition: 0.6s;
+    margin-left: 0px;
+    margin-top: -1px;
+}
+
+#btn2:hover {
+    background: linear-gradient(rgb(42, 238, 140), black) padding-box, linear-gradient(to right, #131815, #0ba18c, #368986) border-box;
+}
+
+
