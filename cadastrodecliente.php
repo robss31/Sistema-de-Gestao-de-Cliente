@@ -11,7 +11,7 @@ $genero=$_POST['genero'];
 $cpf=$_POST['cpf'];
 
 
-$sql = 'INSERT INTO tb_clientes(nome, endereco, contato, idade, genero, cpf) VALUE (:nome, :endereco, :contato, :idade, :genero, :cpf)';
+$sql = 'INSERT INTO tb_clientes(nome, endereco, contato, idade, genero, cpf) VALUES (:nome, :endereco, :contato, :idade, :genero, :cpf)';
 $stmt = $conn -> pepare($sql);
 
 $stmt-> bindParam(':nome', $nome);
