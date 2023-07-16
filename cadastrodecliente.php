@@ -12,7 +12,7 @@ $cpf=$_POST['cpf'];
 
 
 $sql = 'INSERT INTO tb_clientes(nome, endereco, contato, idade, genero, cpf) VALUES (:nome, :endereco, :contato, :idade, :genero, :cpf)';
-$stmt = $conn -> pepare($sql);
+$stmt = $conn -> prepare($sql);
 
 $stmt-> bindParam(':nome', $nome);
 $stmt-> bindParam(':endereco', $endereco);
